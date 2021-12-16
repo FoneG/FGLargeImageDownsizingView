@@ -1,0 +1,22 @@
+{
+  "name": "FGLargeImageDownsizingView",
+  "version": "0.1.0",
+  "summary": "A short description of FGLargeImageDownsizingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15757127193@163.com/FGLargeImageDownsizingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15757127193@163.com": "xisuo@maltbaby.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/15757127193@163.com/FGLargeImageDownsizingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FGLargeImageDownsizingView/Classes/**/*"
+}

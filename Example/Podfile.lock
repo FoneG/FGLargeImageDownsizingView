@@ -1,0 +1,16 @@
+PODS:
+  - FGLargeImageDownsizingView (0.1.0)
+
+DEPENDENCIES:
+  - FGLargeImageDownsizingView (from `../`)
+
+EXTERNAL SOURCES:
+  FGLargeImageDownsizingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FGLargeImageDownsizingView: b9dfabc81271dba0a17d38bc5a81485f83b931ea
+
+PODFILE CHECKSUM: 422d2fd33e459d6df0849d325f3207b33c64d68d
+
+COCOAPODS: 1.11.2

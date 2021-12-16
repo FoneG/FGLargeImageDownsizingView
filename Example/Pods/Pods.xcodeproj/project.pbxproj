@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C766F62CB8C749613EDE8A66C470F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		357AC134B7B1F171A2C66BA49F82AFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4087C7D6A6AB2310003E691FFB68499B /* FGLargeImageDownsizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F6AC917D940E5432AE36975F05B9FC /* FGLargeImageDownsizingView.swift */; };
+		4BADD44431BDD650BC85D565CFA771A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C224DEFCC71915A9FEB765A526401A5 /* Pods-FGLargeImageDownsizingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 804A2016251B712AC4C49CFFFDF925A4 /* Pods-FGLargeImageDownsizingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847A71F45EDBABE8D805E5EEE9CA0D94 /* FGLargeImageDownsizingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8FFA37850E88494DD0A0DE6B65ED1 /* FGLargeImageDownsizingView-dummy.m */; };
+		B31FA0FC4C977D65113935A9CD47C84C /* Pods-FGLargeImageDownsizingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2213F5592EC54AEB7F2A24BFF619311B /* Pods-FGLargeImageDownsizingView_Example-dummy.m */; };
+		B4F4BE11626D3B46AAD77DD1456DB50E /* Pods-FGLargeImageDownsizingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3648242ABD2CB646FCD7FD49C5039D76 /* Pods-FGLargeImageDownsizingView_Tests-dummy.m */; };
+		BE98C00077C46B27CE91909CD2F6B640 /* Pods-FGLargeImageDownsizingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B4A0C5BEF1D11D72C7C4B8B8974CCB /* Pods-FGLargeImageDownsizingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F446303E6D9C409541FF7C3FC9FF7ED2 /* FGLargeImageDownsizingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5C2FD074F3586485BDBB45530C3D7C /* FGLargeImageDownsizingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285B6F3F53CFE7D549A8B4AB6F18EB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 066E60D59011E66BFD4F63D4B519A36D;
+			remoteInfo = "Pods-FGLargeImageDownsizingView_Example";
+		};
+		D5E15A6C9F0AB6B9F9F9A1881E905743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974608C6F6065469996F37BA8B3202F4;
+			remoteInfo = FGLargeImageDownsizingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011D5A5A7B75D2ABD77B65F77E94582F /* Pods-FGLargeImageDownsizingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGLargeImageDownsizingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0151A13887DB430E5D8B590CC9D10A94 /* Pods-FGLargeImageDownsizingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGLargeImageDownsizingView_Tests-Info.plist"; sourceTree = "<group>"; };
+		18D146AD46BBBC5854282B6363A0F465 /* FGLargeImageDownsizingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FGLargeImageDownsizingView-Info.plist"; sourceTree = "<group>"; };
+		192E31334DD4586EDB54538C35D6E93A /* Pods-FGLargeImageDownsizingView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FGLargeImageDownsizingView_Example"; path = Pods_FGLargeImageDownsizingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A861D50395FCF80C4002D7968EA768C /* Pods-FGLargeImageDownsizingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGLargeImageDownsizingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D984B7BD793C5CE7748E54D2BC92B92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1DAE6616007F21D81BC5E1A6DBAE3DDE /* FGLargeImageDownsizingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGLargeImageDownsizingView.release.xcconfig; sourceTree = "<group>"; };
+		2213F5592EC54AEB7F2A24BFF619311B /* Pods-FGLargeImageDownsizingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FGLargeImageDownsizingView_Example-dummy.m"; sourceTree = "<group>"; };
+		2494606069FFA2FE857132733BB94871 /* FGLargeImageDownsizingView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FGLargeImageDownsizingView; path = FGLargeImageDownsizingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F6AC917D940E5432AE36975F05B9FC /* FGLargeImageDownsizingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FGLargeImageDownsizingView.swift; path = FGLargeImageDownsizingView/Classes/FGLargeImageDownsizingView.swift; sourceTree = "<group>"; };
+		334A78E49BDCBC794DCBE14DCAF431B4 /* FGLargeImageDownsizingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGLargeImageDownsizingView-prefix.pch"; sourceTree = "<group>"; };
+		3648242ABD2CB646FCD7FD49C5039D76 /* Pods-FGLargeImageDownsizingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FGLargeImageDownsizingView_Tests-dummy.m"; sourceTree = "<group>"; };
+		3D5C2FD074F3586485BDBB45530C3D7C /* FGLargeImageDownsizingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGLargeImageDownsizingView-umbrella.h"; sourceTree = "<group>"; };
+		403EC9FA83141DDBDD34FE2F1A4CBCA7 /* FGLargeImageDownsizingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FGLargeImageDownsizingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4FF4A9B14936E9877787D1282EE070CD /* Pods-FGLargeImageDownsizingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FGLargeImageDownsizingView_Tests.modulemap"; sourceTree = "<group>"; };
+		6F5CEBC81B8F1CF9CA338964A737A5BB /* Pods-FGLargeImageDownsizingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGLargeImageDownsizingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		727E2A3F0AFBBFAE28E61866A0142FBB /* Pods-FGLargeImageDownsizingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FGLargeImageDownsizingView_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AACC27218D9E4168596FE53F99A49A8 /* Pods-FGLargeImageDownsizingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGLargeImageDownsizingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7AC8FFA37850E88494DD0A0DE6B65ED1 /* FGLargeImageDownsizingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FGLargeImageDownsizingView-dummy.m"; sourceTree = "<group>"; };
+		7ACB6F85F27989268460EBA4311570B0 /* Pods-FGLargeImageDownsizingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGLargeImageDownsizingView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B40E70324641B3A6CD146FDD7A0BFAA /* Pods-FGLargeImageDownsizingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FGLargeImageDownsizingView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		804A2016251B712AC4C49CFFFDF925A4 /* Pods-FGLargeImageDownsizingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGLargeImageDownsizingView_Example-umbrella.h"; sourceTree = "<group>"; };
+		83A8248AD4EBA79CBB8BDB64E5380188 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9777AAD4EB59A7C860925971661D6264 /* Pods-FGLargeImageDownsizingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGLargeImageDownsizingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5308067C398E2310634DD7B5736A77 /* FGLargeImageDownsizingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGLargeImageDownsizingView.debug.xcconfig; sourceTree = "<group>"; };
+		B46136859058BE7561E0F6ECDA7CF6C0 /* Pods-FGLargeImageDownsizingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGLargeImageDownsizingView_Example-Info.plist"; sourceTree = "<group>"; };
+		C545EE1F2102886B2247B2C36364A153 /* Pods-FGLargeImageDownsizingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGLargeImageDownsizingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C81446909D2915D292F0DF7EE7425552 /* FGLargeImageDownsizingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FGLargeImageDownsizingView.modulemap; sourceTree = "<group>"; };
+		D2B4A0C5BEF1D11D72C7C4B8B8974CCB /* Pods-FGLargeImageDownsizingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGLargeImageDownsizingView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF2821ABB57F25C1F9EE407FF95BE1E9 /* Pods-FGLargeImageDownsizingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGLargeImageDownsizingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB1A26F0E018930801524347953BEF77 /* Pods-FGLargeImageDownsizingView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FGLargeImageDownsizingView_Tests"; path = Pods_FGLargeImageDownsizingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A687F03C863E447523C89D6BA497ED61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357AC134B7B1F171A2C66BA49F82AFD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA611ECBF0E0A2060517BB5539CDC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C766F62CB8C749613EDE8A66C470F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C290B213591DA9D9CA7AE6DC37C216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADD44431BDD650BC85D565CFA771A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B1AB63A42B64429CC68BE3E7732143 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A76DE57C4319689B083FC10C4DF897 /* FGLargeImageDownsizingView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2C16D0CE67375FCD912C167822BC5D27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C81446909D2915D292F0DF7EE7425552 /* FGLargeImageDownsizingView.modulemap */,
+				7AC8FFA37850E88494DD0A0DE6B65ED1 /* FGLargeImageDownsizingView-dummy.m */,
+				18D146AD46BBBC5854282B6363A0F465 /* FGLargeImageDownsizingView-Info.plist */,
+				334A78E49BDCBC794DCBE14DCAF431B4 /* FGLargeImageDownsizingView-prefix.pch */,
+				3D5C2FD074F3586485BDBB45530C3D7C /* FGLargeImageDownsizingView-umbrella.h */,
+				AE5308067C398E2310634DD7B5736A77 /* FGLargeImageDownsizingView.debug.xcconfig */,
+				1DAE6616007F21D81BC5E1A6DBAE3DDE /* FGLargeImageDownsizingView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FGLargeImageDownsizingView";
+			sourceTree = "<group>";
+		};
+		37A76DE57C4319689B083FC10C4DF897 /* FGLargeImageDownsizingView */ = {
+			isa = PBXGroup;
+			children = (
+				32F6AC917D940E5432AE36975F05B9FC /* FGLargeImageDownsizingView.swift */,
+				ADE89461ECAACB24B531FB148A999A49 /* Pod */,
+				2C16D0CE67375FCD912C167822BC5D27 /* Support Files */,
+			);
+			name = FGLargeImageDownsizingView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3E70949F13DD35E84DEA237BBD9DF4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2494606069FFA2FE857132733BB94871 /* FGLargeImageDownsizingView */,
+				192E31334DD4586EDB54538C35D6E93A /* Pods-FGLargeImageDownsizingView_Example */,
+				FB1A26F0E018930801524347953BEF77 /* Pods-FGLargeImageDownsizingView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8F237689B051A3741DBAF16773E9E140 /* Pods-FGLargeImageDownsizingView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				727E2A3F0AFBBFAE28E61866A0142FBB /* Pods-FGLargeImageDownsizingView_Example.modulemap */,
+				1A861D50395FCF80C4002D7968EA768C /* Pods-FGLargeImageDownsizingView_Example-acknowledgements.markdown */,
+				9777AAD4EB59A7C860925971661D6264 /* Pods-FGLargeImageDownsizingView_Example-acknowledgements.plist */,
+				2213F5592EC54AEB7F2A24BFF619311B /* Pods-FGLargeImageDownsizingView_Example-dummy.m */,
+				7B40E70324641B3A6CD146FDD7A0BFAA /* Pods-FGLargeImageDownsizingView_Example-frameworks.sh */,
+				B46136859058BE7561E0F6ECDA7CF6C0 /* Pods-FGLargeImageDownsizingView_Example-Info.plist */,
+				804A2016251B712AC4C49CFFFDF925A4 /* Pods-FGLargeImageDownsizingView_Example-umbrella.h */,
+				7AACC27218D9E4168596FE53F99A49A8 /* Pods-FGLargeImageDownsizingView_Example.debug.xcconfig */,
+				7ACB6F85F27989268460EBA4311570B0 /* Pods-FGLargeImageDownsizingView_Example.release.xcconfig */,
+			);
+			name = "Pods-FGLargeImageDownsizingView_Example";
+			path = "Target Support Files/Pods-FGLargeImageDownsizingView_Example";
+			sourceTree = "<group>";
+		};
+		932968CD50890E21893BDF3ECAB5494D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F237689B051A3741DBAF16773E9E140 /* Pods-FGLargeImageDownsizingView_Example */,
+				ABEBDE985A46E8324B023AC6FDC61DC8 /* Pods-FGLargeImageDownsizingView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABEBDE985A46E8324B023AC6FDC61DC8 /* Pods-FGLargeImageDownsizingView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4A9B14936E9877787D1282EE070CD /* Pods-FGLargeImageDownsizingView_Tests.modulemap */,
+				DF2821ABB57F25C1F9EE407FF95BE1E9 /* Pods-FGLargeImageDownsizingView_Tests-acknowledgements.markdown */,
+				6F5CEBC81B8F1CF9CA338964A737A5BB /* Pods-FGLargeImageDownsizingView_Tests-acknowledgements.plist */,
+				3648242ABD2CB646FCD7FD49C5039D76 /* Pods-FGLargeImageDownsizingView_Tests-dummy.m */,
+				0151A13887DB430E5D8B590CC9D10A94 /* Pods-FGLargeImageDownsizingView_Tests-Info.plist */,
+				D2B4A0C5BEF1D11D72C7C4B8B8974CCB /* Pods-FGLargeImageDownsizingView_Tests-umbrella.h */,
+				C545EE1F2102886B2247B2C36364A153 /* Pods-FGLargeImageDownsizingView_Tests.debug.xcconfig */,
+				011D5A5A7B75D2ABD77B65F77E94582F /* Pods-FGLargeImageDownsizingView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FGLargeImageDownsizingView_Tests";
+			path = "Target Support Files/Pods-FGLargeImageDownsizingView_Tests";
+			sourceTree = "<group>";
+		};
+		ADE89461ECAACB24B531FB148A999A49 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				403EC9FA83141DDBDD34FE2F1A4CBCA7 /* FGLargeImageDownsizingView.podspec */,
+				83A8248AD4EBA79CBB8BDB64E5380188 /* LICENSE */,
+				1D984B7BD793C5CE7748E54D2BC92B92 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				21B1AB63A42B64429CC68BE3E7732143 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3E70949F13DD35E84DEA237BBD9DF4A7 /* Products */,
+				932968CD50890E21893BDF3ECAB5494D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		054988672B56E48355AEFE138EFCC274 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F446303E6D9C409541FF7C3FC9FF7ED2 /* FGLargeImageDownsizingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CCEEB5A74965B39C9D1528893F4E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C224DEFCC71915A9FEB765A526401A5 /* Pods-FGLargeImageDownsizingView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA28FD06F64C4C5BF394EEC927F641B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE98C00077C46B27CE91909CD2F6B640 /* Pods-FGLargeImageDownsizingView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		066E60D59011E66BFD4F63D4B519A36D /* Pods-FGLargeImageDownsizingView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9032440DE601C10E470732184172F4FC /* Build configuration list for PBXNativeTarget "Pods-FGLargeImageDownsizingView_Example" */;
+			buildPhases = (
+				321CCEEB5A74965B39C9D1528893F4E6 /* Headers */,
+				0CCEEABE04E0F2257CEACEDCD850289A /* Sources */,
+				DAA611ECBF0E0A2060517BB5539CDC5F /* Frameworks */,
+				18DE628DCFDBD0850052ABBC402B24B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEBAA1088D57FE517EC4A6AC4D2CEEB /* PBXTargetDependency */,
+			);
+			name = "Pods-FGLargeImageDownsizingView_Example";
+			productName = Pods_FGLargeImageDownsizingView_Example;
+			productReference = 192E31334DD4586EDB54538C35D6E93A /* Pods-FGLargeImageDownsizingView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		340D73773164005E95BFED291AE1C3F1 /* Pods-FGLargeImageDownsizingView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCCB5BE50EA363AF745A700D4B37DF0 /* Build configuration list for PBXNativeTarget "Pods-FGLargeImageDownsizingView_Tests" */;
+			buildPhases = (
+				AEA28FD06F64C4C5BF394EEC927F641B /* Headers */,
+				F4071D7EDD50E9BC0182CD570EA354D9 /* Sources */,
+				F7C290B213591DA9D9CA7AE6DC37C216 /* Frameworks */,
+				B434F84B15EF92C7D1D214D404D5FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945B2A114BF55C17E430CF808F3C4D43 /* PBXTargetDependency */,
+			);
+			name = "Pods-FGLargeImageDownsizingView_Tests";
+			productName = Pods_FGLargeImageDownsizingView_Tests;
+			productReference = FB1A26F0E018930801524347953BEF77 /* Pods-FGLargeImageDownsizingView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		974608C6F6065469996F37BA8B3202F4 /* FGLargeImageDownsizingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6204A36DD778096A918CC29F2CF5C3FF /* Build configuration list for PBXNativeTarget "FGLargeImageDownsizingView" */;
+			buildPhases = (
+				054988672B56E48355AEFE138EFCC274 /* Headers */,
+				F6D1B59EF22D8D6117C33607EE32D411 /* Sources */,
+				A687F03C863E447523C89D6BA497ED61 /* Frameworks */,
+				CA3DA58A0CDCC86963A7DD7EC63F0150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGLargeImageDownsizingView;
+			productName = FGLargeImageDownsizingView;
+			productReference = 2494606069FFA2FE857132733BB94871 /* FGLargeImageDownsizingView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E70949F13DD35E84DEA237BBD9DF4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				974608C6F6065469996F37BA8B3202F4 /* FGLargeImageDownsizingView */,
+				066E60D59011E66BFD4F63D4B519A36D /* Pods-FGLargeImageDownsizingView_Example */,
+				340D73773164005E95BFED291AE1C3F1 /* Pods-FGLargeImageDownsizingView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DE628DCFDBD0850052ABBC402B24B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B434F84B15EF92C7D1D214D404D5FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DA58A0CDCC86963A7DD7EC63F0150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CCEEABE04E0F2257CEACEDCD850289A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31FA0FC4C977D65113935A9CD47C84C /* Pods-FGLargeImageDownsizingView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4071D7EDD50E9BC0182CD570EA354D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F4BE11626D3B46AAD77DD1456DB50E /* Pods-FGLargeImageDownsizingView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D1B59EF22D8D6117C33607EE32D411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4087C7D6A6AB2310003E691FFB68499B /* FGLargeImageDownsizingView.swift in Sources */,
+				847A71F45EDBABE8D805E5EEE9CA0D94 /* FGLargeImageDownsizingView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		945B2A114BF55C17E430CF808F3C4D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FGLargeImageDownsizingView_Example";
+			target = 066E60D59011E66BFD4F63D4B519A36D /* Pods-FGLargeImageDownsizingView_Example */;
+			targetProxy = 285B6F3F53CFE7D549A8B4AB6F18EB80 /* PBXContainerItemProxy */;
+		};
+		EBEBAA1088D57FE517EC4A6AC4D2CEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FGLargeImageDownsizingView;
+			target = 974608C6F6065469996F37BA8B3202F4 /* FGLargeImageDownsizingView */;
+			targetProxy = D5E15A6C9F0AB6B9F9F9A1881E905743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		046D943A287C2475E1A9649348CE8578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAE6616007F21D81BC5E1A6DBAE3DDE /* FGLargeImageDownsizingView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FGLargeImageDownsizingView/FGLargeImageDownsizingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGLargeImageDownsizingView/FGLargeImageDownsizingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FGLargeImageDownsizingView/FGLargeImageDownsizingView.modulemap";
+				PRODUCT_MODULE_NAME = FGLargeImageDownsizingView;
+				PRODUCT_NAME = FGLargeImageDownsizingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0614C991C186C347DFAEBE419C3AA892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AACC27218D9E4168596FE53F99A49A8 /* Pods-FGLargeImageDownsizingView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Example/Pods-FGLargeImageDownsizingView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Example/Pods-FGLargeImageDownsizingView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		368BF84376E811ECE08E28C4D61C59EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5308067C398E2310634DD7B5736A77 /* FGLargeImageDownsizingView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FGLargeImageDownsizingView/FGLargeImageDownsizingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGLargeImageDownsizingView/FGLargeImageDownsizingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FGLargeImageDownsizingView/FGLargeImageDownsizingView.modulemap";
+				PRODUCT_MODULE_NAME = FGLargeImageDownsizingView;
+				PRODUCT_NAME = FGLargeImageDownsizingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82858F986FDAC2A8FDA068B7ED18D4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACB6F85F27989268460EBA4311570B0 /* Pods-FGLargeImageDownsizingView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Example/Pods-FGLargeImageDownsizingView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Example/Pods-FGLargeImageDownsizingView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AFA5FB598D567123C788CD9E11D359F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C545EE1F2102886B2247B2C36364A153 /* Pods-FGLargeImageDownsizingView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Tests/Pods-FGLargeImageDownsizingView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Tests/Pods-FGLargeImageDownsizingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FD0F4FAE9AFEC3F7EA0CD7261407F8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011D5A5A7B75D2ABD77B65F77E94582F /* Pods-FGLargeImageDownsizingView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Tests/Pods-FGLargeImageDownsizingView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGLargeImageDownsizingView_Tests/Pods-FGLargeImageDownsizingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6204A36DD778096A918CC29F2CF5C3FF /* Build configuration list for PBXNativeTarget "FGLargeImageDownsizingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BF84376E811ECE08E28C4D61C59EF /* Debug */,
+				046D943A287C2475E1A9649348CE8578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCCB5BE50EA363AF745A700D4B37DF0 /* Build configuration list for PBXNativeTarget "Pods-FGLargeImageDownsizingView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFA5FB598D567123C788CD9E11D359F /* Debug */,
+				FD0F4FAE9AFEC3F7EA0CD7261407F8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9032440DE601C10E470732184172F4FC /* Build configuration list for PBXNativeTarget "Pods-FGLargeImageDownsizingView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0614C991C186C347DFAEBE419C3AA892 /* Debug */,
+				82858F986FDAC2A8FDA068B7ED18D4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

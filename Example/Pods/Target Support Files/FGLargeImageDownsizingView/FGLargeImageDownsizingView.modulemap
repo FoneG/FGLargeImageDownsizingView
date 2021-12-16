@@ -1,0 +1,6 @@
+framework module FGLargeImageDownsizingView {
+  umbrella header "FGLargeImageDownsizingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

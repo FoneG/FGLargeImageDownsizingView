@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FGLargeImageDownsizingView_Example' do
+  pod 'FGLargeImageDownsizingView', :path => '../'
+
+  target 'FGLargeImageDownsizingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
